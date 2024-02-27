@@ -1,0 +1,29 @@
+/* Contact.css */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+  }
+  
+  .contact h2 {
+    text-transform: none; /* Keep h2 in normal case */
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  

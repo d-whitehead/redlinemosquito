@@ -1,0 +1,43 @@
+/* Services.css */
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding-bottom: 40px; /* Add padding at the bottom for spacing */
+    padding-top: 40px;   /* Add padding at the top for spacing */
+}
+.service-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    justify-content: space-between;
+    width: 90%; /* Adjust the width of the service container */
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the service container */
+}
+
+.service {
+    width: 48%; /* Adjust the width of each service item */
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-content {
+    text-align: center;
+}
+
+.service p {
+    font-size: 1.1em; /* Slightly reduce the font size */
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+}
