@@ -1,39 +1,47 @@
 /* HeroSection.css */
 .hero-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .gray-background {
-    flex-grow: 1;
-    background-color: #ccc; /* Set your desired gray color */
-  }
-  
-  .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    text-align: left; /* Align text to the left */
-    color: #fff;
-    padding: 20px; /* Add padding as needed */
-  }
-  
-  .hero-content {
-    max-width: 100%;
-  }
-  
-  .hero h1 {
-    font-size: 3.5em;
-    margin-bottom: 10px;
-    background: linear-gradient(45deg, #000, #ff0000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    white-space: nowrap;
-  }
-  
-  .hero p {
-    font-size: 2.0em;
-  }
-  
+  display: flex;
+  align-items: center;
+}
+
+.gray-background {
+  flex-grow: 1;
+  background-color: black; /* Set your desired gray color */
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: left; /* Align text to the left */
+  color: #fff;
+  padding: 20px; /* Add padding as needed */
+}
+
+.hero-content {
+  max-width: 100%;
+}
+
+.hero h1 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, darkgray, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.hero p {
+  font-size: 2.0em;
+}
+
+.hero-image {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
