@@ -1,6 +1,5 @@
 {
   "name": "redline-mosquito-control",
-  "homepage": "https://www.redlinemosquito.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,13 +1,4 @@
 /* Services.css */
-.services {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    padding-bottom: 40px; /* Add padding at the bottom for spacing */
-    padding-top: 40px;   /* Add padding at the top for spacing */
-}
 .service-container {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
@@ -20,9 +11,6 @@
 .service {
     width: 48%; /* Adjust the width of each service item */
     margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .service img {
@@ -32,12 +20,15 @@
 }
 
 .service-content {
-    text-align: center;
+    width: 48%; /* Adjust the width of the content */
 }
 
 .service p {
     font-size: 1.1em; /* Slightly reduce the font size */
     line-height: 1.6;
     margin-bottom: 20px;
-    text-align: left;
+}
+
+h2 {
+    text-align: center;
 }
